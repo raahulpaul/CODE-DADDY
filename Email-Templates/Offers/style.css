@@ -1,0 +1,196 @@
+        body {
+            width: 100%;
+            background-color: #E1DFD9;
+            margin: 0;
+            padding: 0;
+            -webkit-font-smoothing: antialiased;
+            mso-margin-top-alt: 0px;
+            mso-margin-bottom-alt: 0px;
+            mso-padding-alt: 0px 0px 0px 0px;
+        }
+
+        /*div {
+            background-color: #fff;
+        }*/
+        #logo{
+            height: 90px;
+            width: 90px;
+        }
+
+        #poster{
+            height: 30%;
+            width: 30%;
+            margin-bottom: 2em;
+        }
+
+        #button{
+            margin-bottom: 2em;
+        }
+
+        .content{
+            margin-top: 3em;
+            background-color: #D0EBEB!important;
+        }
+
+        p,
+        h1,
+        h2,
+        h3,
+        h4 {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+
+/*        #aboutus, #reachus, #map {
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+}*/
+
+/*#aboutus:hover, #reachus:hover, #map:hover {
+  box-shadow: 0 1px 5px 1px #005DAA;
+}*/
+
+.panel-footer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #A2DFF3;
+  border-top: 0; 
+  color: #fff;
+  border: 2px solid #222;
+}
+
+.fa-facebook-f{
+    color: #222;
+}
+
+.fa-whatsapp{
+    color: #222;
+}
+
+.fa-envelope-open{
+    color: #222;    
+}
+
+.fa-envelope-open:hover,
+.fa-facebook-f:hover,
+.fa-whatsapp:hover{
+    color: #1187DA;
+}
+/*end social media color*/
+.social-buttons {
+  line-height: 3;
+}
+
+.social-buttons li a:hover {
+  color: #005DAA !important;
+}
+
+.grow { 
+transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+transform: scale(1.5); 
+}
+
+#copyright {
+    line-height: 2px;
+    color: #222;
+}
+
+        span.preheader {
+            display: none;
+            font-size: 1px;
+        }
+
+        html {
+            width: 100%;
+        }
+
+        table {
+            font-size: 14px;
+            border: 0;
+        }
+        /* ----------- responsivity ----------- */
+
+        @media only screen and (max-width: 640px) {
+            /*------ top header ------ */
+            .main-header {
+                font-size: 20px !important;
+            }
+            .main-section-header {
+                font-size: 28px !important;
+            }
+            .show {
+                display: block !important;
+            }
+            .hide {
+                display: none !important;
+            }
+            .align-center {
+                text-align: center !important;
+            }
+            .no-bg {
+                background: none !important;
+            }
+            /*----- main image -------*/
+            .main-image img {
+                width: 440px !important;
+                height: auto !important;
+            }
+            /* ====== divider ====== */
+            .divider img {
+                width: 440px !important;
+            }
+            /*-------- container --------*/
+            .container590 {
+                width: 440px !important;
+            }
+            .container580 {
+                width: 400px !important;
+            }
+            .main-button {
+                width: 220px !important;
+            }
+            /*-------- secions ----------*/
+            .section-img img {
+                width: 320px !important;
+                height: auto !important;
+            }
+            .team-img img {
+                width: 100% !important;
+                height: auto !important;
+            }
+        }
+
+        @media only screen and (max-width: 479px) {
+            /*------ top header ------ */
+            .main-header {
+                font-size: 18px !important;
+            }
+            .main-section-header {
+                font-size: 26px !important;
+            }
+            /* ====== divider ====== */
+            .divider img {
+                width: 280px !important;
+            }
+            /*-------- container --------*/
+            .container590 {
+                width: 280px !important;
+            }
+            .container590 {
+                width: 280px !important;
+            }
+            .container580 {
+                width: 260px !important;
+            }
+            /*-------- secions ----------*/
+            .section-img img {
+                width: 280px !important;
+                height: auto !important;
+            }
+        }
